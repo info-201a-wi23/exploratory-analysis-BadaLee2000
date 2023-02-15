@@ -19,17 +19,22 @@ Winter 2023
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
-
+Our main question is if students' mental health has been affected in a negative way based on the factors including age, gender, and class standing. This question is important because depression and anxiety are very common among students thesedays which affect their studies and social well-being. Accordingly, we plan to compare each factor with depression severity, depression diagnosis, and anxiety diagnosis. 
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords: Mental Health; Student Life; Depression
 
 ### Introduction  
 
 Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+
+1) Does gender affect student mental health?
+2) Does age affect student mental health?
+3) Does class standing affect student mental health?
+4) What are the ways that beneficial students' mental health?
+5) How can students be mentally stable? 
+
 
 ### Related Work  
 
@@ -37,12 +42,24 @@ Describe your topic and related work in this space. You must include 3 citations
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
+Where did you find the data? Please include a link to the data source. 
+The data is found on the website called Kaddle which is an online platform for data scientists and even learners. https://www.kaggle.com/datasets/shahzadahmad0402/depression-and-anxiety-data?resource=download
+
 Who collected the data?  
-How was the data collected or generated?  
+The data was collected by Shahzad Ahmed. 
+
+How was the data collected or generated? 
+The data was collected from undergraduate students at the University of Lahore where there were 787 participants. The data was generated from the inspiration of the Beck Depression and Beck Anxiety inventories. 
+
 Why was the data collected?  
+The data was collected “to evaluate different machine learning methods and to compare the different machine learnings classification approaches.” 
+
 How many observations (rows) are in your data?  
+There are a total of 783 observations in the data.
+
 How many features (columns) are in the data?  
+There are a total of 19 features in the data.
+
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
 What are possible limitations or problems with this data?   (at least 200 words)
 
