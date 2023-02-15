@@ -5,19 +5,22 @@ output: html_document
 
 ## Project title
 
-Give your project a concise, interesting title that summarizes the entirety of your project
+Do Gender, Class Standing, and Age affect student mental health?
 
 ### Authors
 
-Names of your team members
+Jason Cabusao, Jamie Kim, Bada Lee, and Tamia Ouch
 
 ### Date
 
-Winter 2022
+February 20, 2023
+
+Winter 2023
 
 ### Abstract
 
 No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+
 
 ### Keywords
 
