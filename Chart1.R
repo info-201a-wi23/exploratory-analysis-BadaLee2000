@@ -14,3 +14,4 @@ ggplot(data = gender_df) +
   geom_bar(aes(x = depression_severity, fill = gender)) 
 
 
+
