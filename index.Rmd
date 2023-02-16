@@ -118,6 +118,7 @@ An additional challenge we need to look at is deciphering whether a college stud
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
+The three factors, age, gender, and school year will be displayed in charted with depression severity and anxiety severity. Age in the data set varies from 18 years old to 31 years old. The data set only contains the adolescents and adults. Gender can be determined by choosing "female" or "male". School year varies from 1 year to 4 year. Depression severity can be expressed by choose one of the options: "N/A", "0", "None-minimal", "Mild", "Moderate", "Moderately severe", and "Severe." This applies the same to anxiety severity. 
 
 ### Table
 
