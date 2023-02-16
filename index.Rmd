@@ -8,54 +8,120 @@ mentalhealth_df
 
 ## Project title
 
-Give your project a concise, interesting title that summarizes the entirety of your project
+Do Gender, Class Standing, and Age affect students' mental health?
 
 ### Authors
 
-Names of your team members
+Jason Cabusao, Jamie Kim, Bada Lee, and Tamia Ouch
 
 ### Date
 
-Winter 2022
+February 20, 2023 (Winter 2023) 
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+Our main question is if students' mental health has been affected in a negative way based on the factors including age, gender, and class standing. This question is important because depression and anxiety are very common among students thesedays which affect their studies and social well-being. Accordingly, we plan to compare each factor with depression severity, depression diagnosis, and anxiety diagnosis. 
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords: Mental Health; Student Life; Depression
 
 ### Introduction  
 
 Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
 
+1) Does gender affect students' mental health?
+2) Does age affect students' mental health?
+3) Does class standing affect students' mental health?
+4) Which age group struggle the most "depression severity and ONE OTHER COLUMN (NEEDS TO BE EDITED)? 
+5) Which gender has more depression severity? 
+
+The motivation behind the research questions is the success of students in both well-being and academic performances. With the variables that make students different such as age, gender, and class standing, it is possible to find out in what age, in which gender, and in which school year, the students get the most depression and anxiety. More specifically, the factors, age, gender, and class standing, will be compared with depression severity, depression diagnosis, and anxiety diagnosis. For example, if there is a specific age or school year or gender that most students get stressed, depressed, or anxious, it is a great idea for their parents, teachers, siblings to take care of the students more attentively since the students' acquaintances and the environment influence them a lot.
+
+It is really important for students to have good mental health because it affects how we think, feel, and act. Mental health can also affect their education, social life, and emotional well-being. It is also important for students to realize that mental health is not something to be ashamed of. To produce better academic performances as students, it is essential to keep their mental health strong and stable. Looking into the data set will give us an idea of how many students feel the lots of pressure to put into academics over mental health. Hopefully, we find out what groups struggle the most and find a way to offer help virtually. 
+
 ### Related Work  
 
 Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
 
+Our topic is about students' mental health. We want to look at gender, class standing, age to see if there is a determining or peak factor when it comes to low mental health. This can help us provide accurate assistance and reassurance. There have been many studies done surrounding this topic. Some include:
+
+This piece of related work looks into the mental health of students based on race.
+
+Sarah Lipson, Sasha Zhou, Sara Abelson, Justin Heinze & Matthew Jirsa (2022) Trends in college student mental health and help-seeking by race/ethnicity, journal of Affective Disorders, https://www.sciencedirect.com/science/article/pii/S0165032722002774
+
+This piece of related work looks into how student debt can be connected to mental health.
+
+Richard Cooke, Michael Barkham, Kerry Audin, Margaret Bradley & John Davy (2004) Student debt and its relation to student mental health, Journal of Further and Higher Education, 28:1, 53-66, DOI: 10.1080/0309877032000161814
+
+
+This piece of related work looks at mental health and its relation to relocation during covid-19.
+
+Rachel Conrad, Hyeouk Hahm, Amanda Koire, Stephanie Pinder-Amaker, & Cindy Liu (2021) College student mental health risks during the COVID-19 pandemic: Implications of campus relocation, Journal of Psychiatric Research, https://www.sciencedirect.com/science/article/pii/S0022395621000650
+
+
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
+Where did you find the data? Please include a link to the data source. 
+
+The data is found on the website called Kaddle which is an online platform for data scientists and even learners. https://www.kaggle.com/datasets/shahzadahmad0402/depression-and-anxiety-data?resource=download
+
 Who collected the data?  
-How was the data collected or generated?  
+
+The data was collected by Shahzad Ahmed. 
+
+How was the data collected or generated? 
+
+The data was collected from undergraduate students at the University of Lahore where there were 787 participants. The data was generated from the inspiration of the Beck Depression and Beck Anxiety inventories. 
+
 Why was the data collected?  
+
+The data was collected “to evaluate different machine learning methods and to compare the different machine learnings classification approaches.” 
+
 How many observations (rows) are in your data?  
+
+There are a total of 783 observations in the data.
+
 How many features (columns) are in the data?  
+
+There are a total of 19 features in the data.
+
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
 What are possible limitations or problems with this data?   (at least 200 words)
+
+Possible limitations for approaching this data will be due to lack of explanations and the context behind it. It is often complicated to measure someone’s mental health and usually it is associated with personal backgrounds and possibly from their childhood. Considering this fact, measuring someone’s mental health within 19 features might not yield an ideal outcome for this project. Furthermore, some of the features have only two options to represent the status of a student, which are ‘TRUE’ and ‘FALSE.’ Therefore, these might also function as two extreme classifications representing an individual’s status.
+
+Another possible limitation can be due to the gender classification of its data. There are only two categories to represent the identity of a student, which is excluding the possible factors that could function as a crucial factor to explain the mental health of a student. Our chosen data does not provide a holistic view of each student’s life. We have to be very careful when dealing with data that doesn’t share a characteristic of qualitative data. Lastly, although the data shows a large number of students with high levels of anxiety-severity, only a small part of the data shows they are diagnosed as depressed or getting treatment for it.
 
 ### Implications
 
 Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
 
+1) If age does impact mental health, then what?
+2) If BMI does impact mental health, then what?
+3) If gender does impact mental health, then what?
+
+Determining the impacts of gender on a student's mental health not only helps us get an understanding about mental health in general, but also helps us research in many other areas. For example, biologists can study what causes these mental health differences between genders. Is there a chemical in the brain that is more present in a male body or females body that contributes to mental health issues? Or, is there a lack of a chemical in a certain sexes body that influences the presence of depression and mental health? Researchers can help us answer these questions and get a better grasp of what attributes to these gender differences in mental health issues. 
+
+If there are correlations between college students' mental health issues and gender, age, and class standing, policy makers can use that data to push mental health legislation that can alleviate the struggles college students go through. This could be foundation to help the students who suffer from the mental health and guide students' to have better mental health.
+
 ### Limitations & Challenges
 What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+
+One broad challenge we might need to address in regard to gender affecting a students mental health is the dismantling of gender stereotypes and gender normative behavior. Because of societies’ views and the environment it fosters when discussing gender, it can be damaging to those who fit, or fail to fit, in those gender binary ideologies. Folks who identify as a man may face conflict with other men in their environment when they don’t partake in traditional masculine activities. This goes the same for folks who do identify as a woman. If they fail to conform to what society deems as feminine, they may be outcasted or viewed differently. These gender stereotypes are only damaging the mental healths of students who are struggling to fit into these boxes.
+
+One limitation policy makers might run into is successfully implementing systems that will ultimately aid and support folks struggling with mental health problems. Because this topic is so polarizing and lacks bipartisanship, it can be hard to convince policymakers of one party to come to an agreement regarding mental health care.
+
+Another limitation we should be aware of is the faults that come with using BMI as a gauge to determine a student’s health status. Because BMI only takes into consideration weight and height, it exposes us to a big margin of error. Disregarding the muscle mass of an individual can greatly skew and misinterpret the BMI of an individual.
+
+Another important challenge is the classifications of sex and its intricacies. The data set only looks at males and females, and disregards college students who are intersex. It forces those that are unsure into a gender binary.
+An additional challenge we need to look at is deciphering whether a college student's actual sex influenced their mental health, or if their environment and attitudes towards their sex is to blame. Because of societies’ views and the environment it fosters when discussing a person's sex, it can be damaging to those who fit, or fail to fit, in those gender binary ideologies. Folks who identify as a man may face conflict with other men in their environment when they don’t partake in traditional masculine activities. This goes the same for folks who do identify as a woman. If they fail to conform to what society deems as feminine, they may be outcasted or viewed differently. These gender stereotypes are only damaging the mental health of students who are struggling to fit into these boxes.
 
 ### Summary Information
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
+
+The three factors, age, gender, and school year will be displayed in charted with depression severity and anxiety severity. Age in the data set varies from 18 years old to 31 years old. The data set only contains the adolescents and adults. Gender can be determined by choosing "female" or "male". School year varies from 1 year to 4 year. Depression severity can be expressed by choose one of the options: "N/A", "0", "None-minimal", "Mild", "Moderate", "Moderately severe", and "Severe." This applies the same to anxiety severity. 
 
 ### Table
 
