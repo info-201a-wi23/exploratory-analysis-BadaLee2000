@@ -118,6 +118,7 @@ An additional challenge we need to look at is deciphering whether a college stud
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
+
 ### Table
 
 Include a table of aggregate information
