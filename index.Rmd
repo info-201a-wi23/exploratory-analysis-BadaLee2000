@@ -131,30 +131,13 @@ Include a table of aggregate information
 
 Describe why you included the table and what information it reveals
 
-```{r echo=FALSE, warning=FALSE, message=FALSE}
-library(dplyr)
-source("Chart1.R")
-
-mentalhealth_df <- read.csv("https://raw.githubusercontent.com/info-201a-wi23/exploratory-analysis-BadaLee2000/main/depression_anxiety_data.csv", stringsAsFactors = FALSE)
-
-dep_none <- mentalhealth_df %>% select(age, gender, school_year, depression_severity) %>% filter(depression_severity == "none")
-dep_none_minimal <- mentalhealth_df %>% select(age, gender, school_year, depression_severity) %>% filter(depression_severity == "None-minimal")
-dep_mild <-  mentalhealth_df %>% select(age, gender, school_year, depression_severity) %>% filter(depression_severity == "Mild")
-dep_moderate <- mentalhealth_df %>% select(age, gender, school_year, depression_severity) %>% filter(depression_severity == "Moderate")
-dep_moderately_severe <- mentalhealth_df %>% select(age, gender, school_year, depression_severity) %>% filter(depression_severity == "Moderately severe")
-dep_severe <- mentalhealth_df %>% select(age, gender, school_year, depression_severity) %>% filter(depression_severity == "Severe")
-
-anx_none <- mentalhealth_df %>% select(age, gender, school_year, anxiety_severity) %>% filter(anxiety_severity == 0)
-anx_none_minimal <- mentalhealth_df %>% select(age, gender, school_year, anxiety_severity) %>% filter(anxiety_severity == "None-minimal")
-anx_mild <-  mentalhealth_df %>% select(age, gender, school_year, anxiety_severity) %>% filter(anxiety_severity == "Mild")
-anx_moderate <- mentalhealth_df %>% select(age, gender, school_year, anxiety_severity) %>% filter(anxiety_severity == "Moderate")
-anx_moderately_severe <- mentalhealth_df %>% select(age, gender, school_year, anxiety_severity) %>% filter(anxiety_severity == "Moderately severe")
-anx_severe <- mentalhealth_df %>% select(age, gender, school_year, anxiety_severity) %>% filter(anxiety_severity == "Severe")
-
+```{r, echo = FALSE, code = readLines("table.R")}
 ```
 
 ### Chart 1
+This chart is a data visualization that shows the correlation between gender and depression severity, it shows that while men have higher none to none-minimal depression, women have higher mild to severe depression. This data visualization is important because it shows how while both women and men face depression, women have predominantly worse depression
 
+<<<<<<< HEAD
 Include a chart
 
 Describe why you chose this chart and what information it reveals
@@ -162,10 +145,15 @@ Describe why you chose this chart and what information it reveals
 Here's an example of how to run an R script inside an RMarkdown file:
 
 ```{r, echo = FALSE, code = readLines("chart1_example.R")}  
+=======
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart1.R")}
+>>>>>>> 1316f386c3c5b97405a2209b437bd8c3f3ead1ab
 ```
+
 
 ### Chart 2
 
+<<<<<<< HEAD
 Include a chart
 
 Describe why you chose this chart and what information it reveals
@@ -173,11 +161,21 @@ Describe why you chose this chart and what information it reveals
 ```{r, echo = FALSE, code = readLines("chart1_example.R")}
 ```
 
+=======
+This chart is a data visualization that shows the correlation between age and depression severity it is important to notice that depression often peaks between age 19-22, this is important because it can help destigmatize that those with depression in their early twenties are alone, or you that should be embarrassed to face depression at such a young age.
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
+```
+>>>>>>> 1316f386c3c5b97405a2209b437bd8c3f3ead1ab
 ### Chart 3
 
-Include a chart
+This chart is a data visualization that shows the correlation between class standing and depression severity. We wanted to see if certain college years made a students depression more severe. Since coursework tends to get harder the further you are into college, does the severity of depression get worse too? This graph aims to explore and explain this question.
 
+<<<<<<< HEAD
 Describe why you chose this chart and what information it reveals
 
 ```{r, echo = FALSE, code = readLines("chart1_example.R")}
 ```
+=======
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart3.R")}
+```
+>>>>>>> 1316f386c3c5b97405a2209b437bd8c3f3ead1ab
