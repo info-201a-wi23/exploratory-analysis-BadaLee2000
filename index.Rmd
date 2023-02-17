@@ -1,12 +1,9 @@
 ---
 title: "Exploratory Analysis"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
-
-mentalhealth_df <- read.csv("https://raw.githubusercontent.com/info-201a-wi23/exploratory-analysis-BadaLee2000/main/depression_anxiety_data.csv", stringsAsFactors = FALSE)
-mentalhealth_df
 
 ## Project title
 
@@ -22,7 +19,7 @@ February 20, 2023 (Winter 2023)
 
 ### Abstract
 
-Our main question is if students' mental health has been affected in a negative way based on the factors including age, gender, and class standing. This question is important because depression and anxiety are very common among students thesedays which affect their studies as well as social well-being. Accordingly, we plan to compare each factor with depression severity, depression diagnosis, depressiveness, suicidal, anxiety severity, anxiousness, and anxiety diagnosis in several ways. 
+Our main question is if students' mental health has been affected in a negative way based on the factors including age, gender, and class standing. This question is important because depression and anxiety are very common among students thesedays which affect their studies and social well-being. Accordingly, we plan to compare each factor with depression severity, depression diagnosis, and anxiety diagnosis. 
 
 ### Keywords
 
@@ -35,12 +32,12 @@ Briefly introduce your project.  Include 3-5 research questions. What motivates 
 1) Does gender affect students' mental health?
 2) Does age affect students' mental health?
 3) Does class standing affect students' mental health?
-4) Which age group struggle the most from depression severity and anxiety severity? 
-5) Which gender struggles more from depression? 
+4) Which age group struggle the most "depression severity and ONE OTHER COLUMN (NEEDS TO BE EDITED)? 
+5) Which gender has more depression severity? 
 
-The motivation behind the research questions is the success of students in both well-being and academic performances. With the variables that make students different such as age, gender, and class standing, it is possible to find out in what age, in which gender, and in which school year, the students get the most depression and anxiety. More specifically, the factors, age, gender, and class standing, will be compared with depression severity, depression diagnosis, depressiveness, suicidal, anxiety severity, anxiousness, and anxiety diagnosis. For example, if it is revealed that there is a specific age or school year or gender that most students get stressed, depressed, or anxious, it is a great idea for their parents, teachers, siblings to take care of the students more attentively since the students' acquaintances and the environment influence them a lot.
+The motivation behind the research questions is the success of students in both well-being and academic performances. With the variables that make students different such as age, gender, and class standing, it is possible to find out in what age, in which gender, and in which school year, the students get the most depression and anxiety. More specifically, the factors, age, gender, and class standing, will be compared with depression severity, depression diagnosis, and anxiety diagnosis. For example, if there is a specific age or school year or gender that most students get stressed, depressed, or anxious, it is a great idea for their parents, teachers, siblings to take care of the students more attentively since the students' acquaintances and the environment influence them a lot.
 
-It is really important for students to have good mental health because it affects how we think, feel, and act. Mental health can also influence their education, social life, and emotional well-being. It is important for students to realize that mental health is not something to be ashamed of. To produce better academic performances as students, it is essential to keep their mental health strong and stable. Looking into the data set will give us an idea of how many students feel lots of pressure to put into academics over mental health. Hopefully, we find out which groups struggle the most and find a way to offer help. 
+It is really important for students to have good mental health because it affects how we think, feel, and act. Mental health can also affect their education, social life, and emotional well-being. It is also important for students to realize that mental health is not something to be ashamed of. To produce better academic performances as students, it is essential to keep their mental health strong and stable. Looking into the data set will give us an idea of how many students feel the lots of pressure to put into academics over mental health. Hopefully, we find out what groups struggle the most and find a way to offer help virtually. 
 
 ### Related Work  
 
@@ -125,53 +122,29 @@ All of the summary values are calculated based on the ages between 18 years old 
 
 ### Table
 
-Include a table of aggregate information
+I included these tables because it shows based on anxiety severity and depression severity, who makes up the majority. It includes what grade level they are in, their age, and gender. These tables reveal that a large majority of students with depression and anxiety are in grade level 1, which can mean that the transition from high school to college can be difficult on mental health.
 
-Describe why you included the table and what information it reveals
+
+```{r, echo = FALSE, message = FALSE, code = readLines("table.R")}
+```
 
 
 ### Chart 1
 This chart is a data visualization that shows the correlation between gender and depression severity, it shows that while men have higher none to none-minimal depression, women have higher mild to severe depression. This data visualization is important because it shows how while both women and men face depression, women have predominantly worse depression
 
-<<<<<<< HEAD
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-```{r, echo = FALSE, code = readLines("chart1_example.R")}  
-=======
 ```{r, echo = FALSE, message = FALSE, code = readLines("Chart1.R")}
->>>>>>> 1316f386c3c5b97405a2209b437bd8c3f3ead1ab
 ```
 
 
 ### Chart 2
 
-<<<<<<< HEAD
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-```{r, echo = FALSE, code = readLines("chart1_example.R")}
-```
-
-=======
 This chart is a data visualization that shows the correlation between age and depression severity it is important to notice that depression often peaks between age 19-22, this is important because it can help destigmatize that those with depression in their early twenties are alone, or you that should be embarrassed to face depression at such a young age.
 ```{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
 ```
->>>>>>> 1316f386c3c5b97405a2209b437bd8c3f3ead1ab
+
 ### Chart 3
 
 This chart is a data visualization that shows the correlation between class standing and depression severity. We wanted to see if certain college years made a students depression more severe. Since coursework tends to get harder the further you are into college, does the severity of depression get worse too? This graph aims to explore and explain this question.
 
-<<<<<<< HEAD
-Describe why you chose this chart and what information it reveals
-
-```{r, echo = FALSE, code = readLines("chart1_example.R")}
-```
-=======
 ```{r, echo = FALSE, message = FALSE, code = readLines("Chart3.R")}
 ```
->>>>>>> 1316f386c3c5b97405a2209b437bd8c3f3ead1ab
