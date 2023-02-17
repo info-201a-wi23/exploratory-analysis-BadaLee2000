@@ -22,7 +22,7 @@ February 20, 2023 (Winter 2023)
 
 ### Abstract
 
-Our main question is if students' mental health has been affected in a negative way based on the factors including age, gender, and class standing. This question is important because depression and anxiety are very common among students thesedays which affect their studies and social well-being. Accordingly, we plan to compare each factor with depression severity, depression diagnosis, and anxiety diagnosis. 
+Our main question is if students' mental health has been affected in a negative way based on the factors including age, gender, and class standing. This question is important because depression and anxiety are very common among students thesedays which affect their studies as well as social well-being. Accordingly, we plan to compare each factor with depression severity, depression diagnosis, depressiveness, suicidal, anxiety severity, anxiousness, and anxiety diagnosis in several ways. 
 
 ### Keywords
 
@@ -35,12 +35,12 @@ Briefly introduce your project.  Include 3-5 research questions. What motivates 
 1) Does gender affect students' mental health?
 2) Does age affect students' mental health?
 3) Does class standing affect students' mental health?
-4) Which age group struggle the most "depression severity and ONE OTHER COLUMN (NEEDS TO BE EDITED)? 
-5) Which gender has more depression severity? 
+4) Which age group struggle the most from depression severity and anxiety severity? 
+5) Which gender struggles more from depression? 
 
-The motivation behind the research questions is the success of students in both well-being and academic performances. With the variables that make students different such as age, gender, and class standing, it is possible to find out in what age, in which gender, and in which school year, the students get the most depression and anxiety. More specifically, the factors, age, gender, and class standing, will be compared with depression severity, depression diagnosis, and anxiety diagnosis. For example, if there is a specific age or school year or gender that most students get stressed, depressed, or anxious, it is a great idea for their parents, teachers, siblings to take care of the students more attentively since the students' acquaintances and the environment influence them a lot.
+The motivation behind the research questions is the success of students in both well-being and academic performances. With the variables that make students different such as age, gender, and class standing, it is possible to find out in what age, in which gender, and in which school year, the students get the most depression and anxiety. More specifically, the factors, age, gender, and class standing, will be compared with depression severity, depression diagnosis, depressiveness, suicidal, anxiety severity, anxiousness, and anxiety diagnosis. For example, if it is revealed that there is a specific age or school year or gender that most students get stressed, depressed, or anxious, it is a great idea for their parents, teachers, siblings to take care of the students more attentively since the students' acquaintances and the environment influence them a lot.
 
-It is really important for students to have good mental health because it affects how we think, feel, and act. Mental health can also affect their education, social life, and emotional well-being. It is also important for students to realize that mental health is not something to be ashamed of. To produce better academic performances as students, it is essential to keep their mental health strong and stable. Looking into the data set will give us an idea of how many students feel the lots of pressure to put into academics over mental health. Hopefully, we find out what groups struggle the most and find a way to offer help virtually. 
+It is really important for students to have good mental health because it affects how we think, feel, and act. Mental health can also influence their education, social life, and emotional well-being. It is important for students to realize that mental health is not something to be ashamed of. To produce better academic performances as students, it is essential to keep their mental health strong and stable. Looking into the data set will give us an idea of how many students feel lots of pressure to put into academics over mental health. Hopefully, we find out which groups struggle the most and find a way to offer help. 
 
 ### Related Work  
 
@@ -129,8 +129,6 @@ Include a table of aggregate information
 
 Describe why you included the table and what information it reveals
 
-```{r, echo = FALSE, code = readLines("table.R")}
-```
 
 ### Chart 1
 This chart is a data visualization that shows the correlation between gender and depression severity, it shows that while men have higher none to none-minimal depression, women have higher mild to severe depression. This data visualization is important because it shows how while both women and men face depression, women have predominantly worse depression
