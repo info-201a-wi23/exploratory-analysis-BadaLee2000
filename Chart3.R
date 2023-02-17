@@ -1,6 +1,3 @@
-# This chart is a data visualization that shows the correlation between class standing and depression severity
-
-# We wanted to see if certain college years made a students depression more severe. Since coursework tends to get harder the further you are into college, does the severity of depression get worse too? This graph aims to explore and explain this question.
 
 # Load the necessary packages
 library(dplyr)
