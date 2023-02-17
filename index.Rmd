@@ -127,24 +127,20 @@ Include a table of aggregate information
 Describe why you included the table and what information it reveals
 
 ### Chart 1
+This chart is a data visualization that shows the correlation between gender and depression severity, it shows that while men have higher none to none-minimal depression, women have higher mild to severe depression. This data visualization is important because it shows how while both women and men face depression, women have predominantly worse depression
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
-Here's an example of how to run an R script inside an RMarkdown file:
-
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart1.R")}
 ```
+
 
 ### Chart 2
 
-Include a chart
-
-Describe why you chose this chart and what information it reveals
-
+This chart is a data visualization that shows the correlation between age and depression severity it is important to notice that depression often peaks between age 19-22, this is important because it can help destigmatize that those with depression in their early twenties are alone, or you that should be embarrassed to face depression at such a young age.
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
+```
 ### Chart 3
 
-Include a chart
+This chart is a data visualization that shows the correlation between class standing and depression severity. We wanted to see if certain college years made a students depression more severe. Since coursework tends to get harder the further you are into college, does the severity of depression get worse too? This graph aims to explore and explain this question.
 
-Describe why you chose this chart and what information it reveals
+```{r, echo = FALSE, message = FALSE, code = readLines("Chart3.R")}
+```
