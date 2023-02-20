@@ -65,25 +65,25 @@ Where did you find the data? Please include a link to the data source.
 
 The data is found on the website called Kaddle which is an online platform for data scientists and even learners. https://www.kaggle.com/datasets/shahzadahmad0402/depression-and-anxiety-data?resource=download
 
-Who collected the data?  
+Who collected the data? 
 
-The data was collected by Shahzad Ahmed. 
+* The data was collected by Shahzad Ahmed. 
 
 How was the data collected or generated? 
 
-The data was collected from undergraduate students at the University of Lahore where there were 787 participants. The data was generated from the inspiration of the Beck Depression and Beck Anxiety inventories. 
+* The data was collected from undergraduate students at the University of Lahore where there were 787 participants. The data was generated from the inspiration of the Beck Depression and Beck Anxiety inventories. 
 
 Why was the data collected?  
 
-The data was collected “to evaluate different machine learning methods and to compare the different machine learnings classification approaches.” 
+* The data was collected “to evaluate different machine learning methods and to compare the different machine learnings classification approaches.” 
 
 How many observations (rows) are in your data?  
 
-There are a total of 783 observations in the data.
+* There are a total of 783 observations in the data.
 
 How many features (columns) are in the data?  
 
-There are a total of 19 features in the data.
+* There are a total of 19 features in the data.
 
 What, if any, ethical questions or questions of power do you need to consider when working with this data?  
 What are possible limitations or problems with this data?   (at least 200 words)
@@ -97,7 +97,7 @@ Another possible limitation can be due to the gender classification of its data.
 Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
 
 1) If age does impact mental health, then what?
-2) If BMI does impact mental health, then what?
+2) If class standing does impact mental health, then what?
 3) If gender does impact mental health, then what?
 
 Determining the impacts of gender on a student's mental health not only helps us get an understanding about mental health in general, but also helps us research in many other areas. For example, biologists can study what causes these mental health differences between genders. Is there a chemical in the brain that is more present in a male body or females body that contributes to mental health issues? Or, is there a lack of a chemical in a certain sexes body that influences the presence of depression and mental health? Researchers can help us answer these questions and get a better grasp of what attributes to these gender differences in mental health issues. 
@@ -114,6 +114,7 @@ One limitation policy makers might run into is successfully implementing systems
 Another limitation we should be aware of is the faults that come with using BMI as a gauge to determine a student’s health status. Because BMI only takes into consideration weight and height, it exposes us to a big margin of error. Disregarding the muscle mass of an individual can greatly skew and misinterpret the BMI of an individual.
 
 Another important challenge is the classifications of sex and its intricacies. The data set only looks at males and females, and disregards college students who are intersex. It forces those that are unsure into a gender binary.
+
 An additional challenge we need to look at is deciphering whether a college student's actual sex influenced their mental health, or if their environment and attitudes towards their sex is to blame. Because of societies’ views and the environment it fosters when discussing a person's sex, it can be damaging to those who fit, or fail to fit, in those gender binary ideologies. Folks who identify as a man may face conflict with other men in their environment when they don’t partake in traditional masculine activities. This goes the same for folks who do identify as a woman. If they fail to conform to what society deems as feminine, they may be outcasted or viewed differently. These gender stereotypes are only damaging the mental health of students who are struggling to fit into these boxes.
 
 ### Summary Information
@@ -130,21 +131,22 @@ I included these tables because it shows based on anxiety severity and depressio
 
 
 ### Chart 1
-This chart is a data visualization that shows the correlation between gender and depression severity, it shows that while men have higher none to none-minimal depression, women have higher mild to severe depression. This data visualization is important because it shows how while both women and men face depression, women have predominantly worse depression
 
-```{r, echo = FALSE, message = FALSE, code = readLines("Chart1.R")}
+This chart is a data visualization that shows the correlation between gender and depression severity in college students. It shows that while men have higher none to none-minimal depression, women have higher mild to severe depression. This data visualization is important because it shows how while both women and men face depression, college students who are women have predominantly worse depression.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, code = readLines("Chart1.R")}
 ```
-
 
 ### Chart 2
 
-This chart is a data visualization that shows the correlation between age and depression severity it is important to notice that depression often peaks between age 19-22, this is important because it can help destigmatize that those with depression in their early twenties are alone, or you that should be embarrassed to face depression at such a young age.
+This chart is a data visualization that shows the correlation between age and depression severity in college students. It is important to notice that depression often peaks between age 19-22. This is important because it can help destigmatize that individuals with depression in their early twenties are alone. This data visualization helps combat the notion that young individuals should be embarrassed to face depression.
+
 ```{r, echo = FALSE, message = FALSE, code = readLines("Chart2.R")}
 ```
 
 ### Chart 3
 
-This chart is a data visualization that shows the correlation between class standing and depression severity. We wanted to see if certain college years made a students depression more severe. Since coursework tends to get harder the further you are into college, does the severity of depression get worse too? This graph aims to explore and explain this question.
+This chart is a data visualization that shows the correlation between class standing and depression severity in college students. We wanted to see if certain college years made a students depression more severe. Since coursework tends to get harder the further you are into college, we wanted to determine if the severity of depression get worse too? From the graph, it shows that the higher year of college doesn't increase a students depression severity. There are actually more first year college students with severe depression than fourth year college students with severe depression.
 
 ```{r, echo = FALSE, message = FALSE, code = readLines("Chart3.R")}
 ```
